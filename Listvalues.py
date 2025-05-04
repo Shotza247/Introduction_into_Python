@@ -20,8 +20,10 @@ print(lstname)
 #Lets check if sharon is in our list
 searchname = input("Search for: ")
 if searchname in lstname:
-    print(str(lstname.find(searchname)))
+    print(f"The name was found: {searchname}")
 
+else:
+    print("Not Found: " + searchname)
 print("length of list Items:" + str(len(lstname)))
 
 for item in lstname:
