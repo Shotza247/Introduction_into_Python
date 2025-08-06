@@ -16,4 +16,5 @@ print(f"Mean: {median}")
 
 from statistics import mode
 mode_value = mode(data)
+#mean_value = median(data)
 print(f"Mode: {mode_value}")

@@ -6,11 +6,14 @@ print("Object to Uppercase: " + upper_case)
 lower_case = course.lower()
 print("Object to lowercase: " + lower_case)
 
+for letters in course.split():
+    print(letters.split())
+
 find_for = course.find("n")
 print("First n is found at this index: " + str(find_for))
 
 replace_for = course.replace("for","by")
-print("Replaced for with by: " + replace_for)
+print(f" Original string: " +course  +  ". Replaced 'for' with 'by': " + replace_for)
 
 lookup_word = input("Enter a letter/word to search: ")
 
